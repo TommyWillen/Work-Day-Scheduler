@@ -15,7 +15,7 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  /* background-color: transparent; */
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -33,13 +33,20 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-top: 1px dashed #000000 !important;
+  border-right: white !important;
+  width: 68px;
+}
+
+.hour span {
+  background-color: #ffffff !important;
+  border: none !important;
 }
 
 .past {
@@ -47,9 +54,19 @@ textarea{
   color: white;
 }
 
+.past:focus {
+  background-color: #d3d3d3 !important;
+  color: white !important;
+}
+
 .present {
   background-color: #ff6961;
   color: white;
+}
+
+.present:focus {
+  background-color: #ff6961 !important;
+  color: white !important;
 }
 
 .future {
@@ -57,15 +74,34 @@ textarea{
   color: white;
 }
 
+.future:focus {
+  background-color: #77dd77 !important;
+  color: white !important;
+}
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  background-color: #06AED5 !important;
+  color: white !important;
+}
+
+.saveBtn i {
+  color: #fff !important;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+button {
+  background-color: transparent !important;
+}
+
+button:active, button:focus {
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
