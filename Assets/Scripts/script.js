@@ -6,20 +6,15 @@ var result = {};
 arrIndex.forEach((key, i) => result[key] = arrName[i]);
 console.log(result);
 
+let timeIndex = $(".hour span").map(function(){
+  return parseInt($(this).text());
+}).get();
+console.log(timeIndex);
+
+
 $(document).ready(function () {
   let currentTime = parseInt(moment().format("HH"));
-  let workDayData = {
-    8: "",
-    9: "",
-    10: "",
-    11: "",
-    12: "",
-    1: "",
-    2: "",
-    3: "",
-    4: "",
-    5: "",
-  }
+
   dateTimeSeconds();
 
   let hourBlockTimes = $(".hour");
