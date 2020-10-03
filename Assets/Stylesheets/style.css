@@ -36,6 +36,10 @@ textarea{
   border-top: 1px solid white;
 }
 
+.btn-row {
+  height: auto !important;
+}
+
 .hour {
   background-color: #ffffff !important;
   color: #000000 !important;
@@ -105,4 +109,17 @@ button:active, button:focus {
   background-color: transparent !important;
   outline: none !important;
   box-shadow: none !important;
+}
+
+.clearBtn {
+  background-color: #06AED5 !important;
+  color: #fff !important;
+  border-radius: 20px;
+  height: 40px !important;
+}
+
+.clearBtn:hover, .clearBtn:focus {
+  background-color: #06AED5 !important;
+  color: #000 !important;
+  border-radius: 20px;
 }
