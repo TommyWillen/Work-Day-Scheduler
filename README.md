@@ -25,7 +25,7 @@ View the [github-pages](https://tommywillen.github.io/Work-Day-Scheduler/)
 - [Easter Egg!](#easter-egg!)
 
 ## Project Description
-![Javascript Quiz Gif](/assets/images-and-gifs/JavaScript-Quiz-Main.gif)
+![Work Day Scheduler](/assets/Images-and-Gifs/Work-Day-Scheduler-Main.PNG)
 
 ### Project Tasks
 For this project I was tasked with creating a work day scheduler using JQuesry and Moment.JS. I was asked to do the following:
@@ -54,13 +54,15 @@ I used moment.js methods to display the current day when the page loads. I also 
 
 ### Local Storage and New Day Reset
 
+![Work Day Scheduler Gif](/assets/Images-and-Gifs/Work-Day-Scheduler-sample.gif)
+
 I used jquery traversal methods to link the button to the textarea to save the information to local storage. I also used jquery to easily link the clear button to all of the text areas for easy clearing. The local storage variable was a single stringified object that stored the time element (in military time) and the text in the text area.
 
 ### Video Tutorial
 
 Click the image to view my video feature tutorial:
 
-[![Start screen to link to youtube video](/assets/images-and-gifs/game-start-state.PNG)]()
+[![Start screen to link to youtube video](/assets/Images-and-gifs/Work-Day-Scheduler-Main.PNG)](https://youtu.be/kvQkQhar2jo)
 
 ## Installation
 
